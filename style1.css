@@ -1,0 +1,135 @@
+
+.home {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+  }
+
+  .navbar {
+    font-size: 20px;
+    font-family: sans-serif;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  #logo {
+    color: #10271e;
+    display: flex;
+    width: 150px;
+    align-items: center;
+    justify-content: space-between;
+  }
+  #logo img {
+    width: 45px;
+    height: 45px;
+  }
+  .navbar a {
+    color: #10271e;
+    text-decoration: none;
+    background-color: transparent;
+  }
+  #connect {
+    background-color: #10271e;
+    width: 150px;
+    height: 45px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  #connect a {
+    color: aliceblue;
+  }
+  #connect img{
+    rotate: -45deg;
+    
+    border-radius: 20px;
+    width: 30px;
+    height: 30px;
+    position: relative;
+  }
+  .nav-list {
+    display: inline;
+  }
+
+  .poster {
+    border: 7px solid #10271e;
+    background-image: url("img.jpg");
+    background-size: 500px 450px;
+    position: absolute;
+    top: 25vh;
+    right: 40vh;
+    height: 450px;
+    width: 500px;
+  }
+  .topbar {
+    height: 30px;
+    border-bottom: 7px solid #10271e;
+    background-color: #f35a0e;
+  }
+  .topbar img {
+    background-color: #fff;
+    font-size: 30px;
+    height: 100%;
+    width: 30px;
+    text-align: center;
+    display: inline-block;
+    border-right: 7px solid #10271e;
+  }
+  .header {
+    height: 60vh;
+  }
+  .footer {
+    height: 40vh;
+    background-color: #10271e;
+    border-radius: 45px 45px 0 0;
+  }
+  .about{
+    max-width: 500px;
+    letter-spacing: 1.5;
+    padding-top: 15px;
+    padding-left: 35px ;
+    color: #fff;
+  }
+  .about #btn{
+    background-color: #f35a0e;
+    max-width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    margin: auto;
+    padding: 0 2px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  #btn a{
+    color: #fff;
+    text-decoration: none;
+  }
+  #btn a:visited{
+    text-decoration: none;
+  }
+  #btn img{
+    border-radius: 20px;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    
+  }
+  .name{
+    position: absolute;
+    padding: 20px;
+    color: #10271e;
+    font-size: 60px;
+    font-weight: 600;
+    text-wrap: wrap;
+    display: flex;
+    align-items: center;
+    top: 25vh;
+    left: 20px;
+    height: 180px;
+    width: 500px;
+  }
+  
